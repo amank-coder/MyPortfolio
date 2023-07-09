@@ -32,7 +32,7 @@ const Work = () => {
                   <span className='text-2xl font-bold'>AQI</span>
                 </div>
             </div>
-            <div className='border-2 rounded-xl overflow-hidden group relative' onClick={() => handleProjectClick('https://github.com/amank-coder/hostel-connect')}>
+            <div className='border-2 rounded-xl overflow-hidden group relative' onClick={() => handleProjectClick('https://github.com/amank-coder/HostelConnect')}>
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 cursor-pointer'></div>
                 <img src={Img3} className='group-hover:scale-125 transition-all duration-500 h-full'/>
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>

@@ -20,7 +20,7 @@ const Services = () => {
       <div className='container justify-center flex-col lg:flex'>
         <div className='mx-auto'>
           <div className='p-12'>
-            <h2 className='h2 text-accent'>Experience</h2>
+            <h2 className='h2 text-accent text-center'>Experience</h2>
           </div>
         </div>
         <div className='grid grid-cols-3 text-center'>

@@ -1,9 +1,11 @@
 import React from 'react';
 import Image from '../assets/digitalidphoto.jpg'
-import {FaGithub, FaYoutube, FaDribbble } from 'react-icons/fa'
+import {FaGithub, FaYoutube, FaDribbble, FaLinkedin } from 'react-icons/fa'
 import {TypeAnimation} from 'react-type-animation'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
+import { Link } from 'react-scroll';
+import {AiFillMail} from 'react-icons/ai'
 
 const Banner = () => {
   return(
@@ -30,17 +32,17 @@ const Banner = () => {
             </motion.div>
             <p>MERN stack developer crafting innovative web solutions with precision and passion.</p>
           </div>
-          <button className='btn btn-md lg:btn-lg p-2 mr-12 mb-8 mt-4'>Contact me</button>
-          <a href='https://drive.google.com/file/d/1eWrFkudPfvppuza8aGoVa63CoUUsz8Vw/view?usp=sharing' className='text-gradient btn-link'>My Portfolio</a>
+          <button className='btn btn-md lg:btn-lg p-2 mr-12 mb-8 mt-4'><Link to='contact' smooth={true}>Contact me</Link></button>
+          <a href='https://drive.google.com/file/d/1HqQcAnCll76EUZhb_Ori26SjCpEBSFTP/view?usp=sharing' className='text-gradient btn-link'>My Portfolio</a>
           <div className='flex text-[20px] gap-x-6 max-w-max ml-2'>
-            <a href='#'>
-              <FaYoutube />
+            <a href='https://www.linkedin.com/in/aman-konchgamey-018b9b244/'>
+              <FaLinkedin size={36}/>
             </a>
             <a href='https://github.com/amank-coder'>
-              <FaGithub />
+              <FaGithub size={36}/>
             </a>
-            <a href='#'>
-              <FaDribbble />
+            <a href='mailto: amankonchgamey23@gmail.com'>
+              <AiFillMail size={36}/>
             </a>
           </div>
           

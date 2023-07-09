@@ -31,12 +31,12 @@ const Banner = () => {
             <p>MERN stack developer crafting innovative web solutions with precision and passion.</p>
           </div>
           <button className='btn btn-md lg:btn-lg p-2 mr-12 mb-8 mt-4'>Contact me</button>
-          <a href='#' className='text-gradient btn-link'>My Portfolio</a>
+          <a href='https://drive.google.com/file/d/1eWrFkudPfvppuza8aGoVa63CoUUsz8Vw/view?usp=sharing' className='text-gradient btn-link'>My Portfolio</a>
           <div className='flex text-[20px] gap-x-6 max-w-max ml-2'>
             <a href='#'>
               <FaYoutube />
             </a>
-            <a href='#'>
+            <a href='https://github.com/amank-coder'>
               <FaGithub />
             </a>
             <a href='#'>

@@ -32,8 +32,6 @@ const About = () => {
             </div>
           </div>    
         </div>
-        <button className='btn btn-md lg:btn-lg p-2 mr-12 mb-8 mt-4'>Contact me</button>
-        <a href='#' className='text-gradient btn-link'>My Portfolio</a>
       </div>
       </div>
     </div>

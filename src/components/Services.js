@@ -43,7 +43,7 @@ const Services = () => {
               <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6 mt-6 text-center'>TSOC '23</h4>
         </div>
       </div>
-      <div className='mt-16 flex gap-8 flex-wrap'>
+      <div className='mt-16 flex gap-8 flex-wrap mx-auto'>
           <span><BiLogoHtml5 size={36}/> </span>
           <span><BiLogoCss3 size={36}/></span>
           <span><BiLogoTailwindCss size={36}/></span>

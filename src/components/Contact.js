@@ -48,7 +48,7 @@ const Contact = () => {
   }
 
   return(
-  <section className='py-16 lg:section mt-72' id='contact'>
+  <section className='py-16 lg:section mt-16 md:mt-72' id='contact'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row '>
         <motion.div variants={fadeIn('right', 0.3)} initial='hidden' 

@@ -14,7 +14,7 @@ const Work = () => {
     window.open(projectUrl, '_blank');
   };
   return(
-    <div className='section mt-72' id='work'>
+    <div className='section mt-16 md:mt-72' id='work'>
       <div className="container mx-auto">
         <h2 className='h2 text-center text-accent mb-12'>My Projects</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>

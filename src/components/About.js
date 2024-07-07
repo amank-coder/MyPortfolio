@@ -12,7 +12,7 @@ const About = () => {
         <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten opacity-60 bg-top rounded-full w-1/3'> </div>
         <div className='flex-1 mt-20'>
           <h2 className='h2 text-accent'>About Me.</h2>
-          <h4 className='mb-4'>I'm a third year BTECH- Computer Science student at VIT, Vellore</h4>
+          <h4 className='mb-4'>I'm a fourth year BTECH- Computer Science student at VIT, Vellore</h4>
           <p>I have a passion for web development. I am also a web3 enthusiast and currently learning about Blockchain.</p>
          <div className='flex gap-x-6 lg:gap-x-10 mb-12 mt-4 '>
           <div>
@@ -28,7 +28,7 @@ const About = () => {
                 2
             </div>
             <div className='font-primary text-sm tracking-[2px]'>
-              Certificates Completed
+              Internships Completed
             </div>
           </div>    
         </div>

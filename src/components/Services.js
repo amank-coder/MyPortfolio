@@ -1,20 +1,20 @@
 import React from 'react';
-import {SiSolidity, SiExpress} from 'react-icons/si'
+import {SiSolidity, SiExpress, SiSvelte, SiPowerbi} from 'react-icons/si'
 import {BiLogoJavascript, BiLogoPython, BiLogoCss3, BiLogoReact, BiLogoTailwindCss, BiLogoNodejs, BiLogoMongodb, BiLogoHtml5} from 'react-icons/bi'
 import {TbBrandCpp} from 'react-icons/tb' 
 
 const services =[
     {
-      name:'ISA-VIT',
-      desc:'Core Committee Member'
+      name:'TechTree IT Systems',
+      desc:'Java Developer Intern'
     },
     {
-      name:'AYUDA-VIT',
-      desc:'Core Committee Member'
+      name:'Timechain Labs',
+      desc:'SDE Intern'
     },
     {
-      name:'MFC-VIT',
-      desc:'Core Committee Member'
+      name:'Contributor',
+      desc:"TSOC '23"
     },
   ]
 const Services = () => {
@@ -38,10 +38,6 @@ const Services = () => {
               )
           })}
         </div>
-        <div>
-              <p className='font-secondary text-center text-3xl mt-4 text-purple-300 font-semibold'>Contributor</p>
-              <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6 mt-6 text-center'>TSOC '23</h4>
-        </div>
       </div>
       <div className='mt-16 flex gap-8 flex-wrap mx-auto'>
           <span><BiLogoHtml5 size={36}/> </span>
@@ -52,9 +48,11 @@ const Services = () => {
           <span><BiLogoNodejs size={36}/></span>
           <span><SiExpress size={36}/></span>
           <span><BiLogoMongodb size={36}/></span>
+          <span><SiSvelte size={36} /></span>
           <span><SiSolidity size={36}/></span>
           <span><BiLogoPython size={36}/></span>
           <span><TbBrandCpp size={36}/></span>
+          <span><SiPowerbi size={36}/></span>
       </div>
     </div>
   ) 

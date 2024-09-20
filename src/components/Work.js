@@ -1,7 +1,7 @@
 import React from 'react';
 import Img1 from '../assets/work1.jpg'
-import Img2 from '../assets/vidya.png'
-import Img3 from '../assets/work3.PNG'
+import Img2 from '../assets/p2.png'
+import Img3 from '../assets/p3.png'
 import Img4 from '../assets/metanet.png'
 
 const Work = () => {
@@ -24,14 +24,14 @@ const Work = () => {
             </div>
             <div className='border-2 rounded-xl overflow-hidden group relative' onClick={() => handleProjectClick('https://github.com/amank-coder/yantra-hack')}>
            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 cursor-pointer' ></div>
-                <img src="/p2.PNG" className='group-hover:scale-125 transition-all duration-500 h-full'/>
+                <img src={Img2} className='group-hover:scale-125 transition-all duration-500 h-full'/>
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-2xl font-bold'>Vidya Mandir</span>
                 </div>
             </div>
             <div className='border-2 rounded-xl overflow-hidden group relative' onClick={() => handleProjectClick('https://github.com/amank-coder/hostel-connect-latest')}>
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300 cursor-pointer'></div>
-                <img src="/p3.PNG" className='group-hover:scale-125 transition-all duration-500 h-full'/>
+                <img src={Img3} className='group-hover:scale-125 transition-all duration-500 h-full'/>
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                   <span className='text-2xl font-bold'>HostelConnect</span>
                 </div>
